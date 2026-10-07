@@ -1,0 +1,6 @@
+# Tested local GPU environment. Run from this repository with uv pip install.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.8.0+cu126
+torchaudio==2.8.0+cu126
+transformers==5.18.0
+-e .[server]
